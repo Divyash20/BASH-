@@ -1,0 +1,10 @@
+#!/bin/bash
+#How to check if the Number is even or Odd by taking input form user:
+echo "Enter the integer";
+read num;
+if [ $((num % 2)) -eq 0 ];
+then
+    echo "----The number is even----";
+else
+    echo "----The number is odd----";
+fi
